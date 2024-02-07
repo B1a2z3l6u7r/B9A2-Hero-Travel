@@ -34,21 +34,20 @@
 
 /* start here for nav bar */
 
-.nav-header {
+.header {
     width: 1440px;
-    height: 6940px;
+    height: 1540px;
     /* height: 600px; */
     background: #FFF;
-    padding: 20px;
     margin: 40px;
-    /* justify-content: center;
-    align-items: center; */
 
 }
 
+
 .nav-container {
     display: flex;
-
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-item-left {
@@ -149,7 +148,7 @@
     position: absolute;
     display: flex;
     top: 75%;
-    left: 50%; 
+    left: 50%;
     transform: translate(-50%, -50%);
     gap: 10px;
 
@@ -168,7 +167,7 @@
     border-radius: 8px;
     background: #FFF;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     gap: 5px;
 
@@ -182,14 +181,417 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
     gap: 5px;
     color: #FFF;
     text-align: center;
 
     font-size: 20px;
-
     font-weight: 700;
-
     border-radius: 8px;
     background: #FF5400;
+}
+
+/* End banner section */
+
+/* popular tours section start here */
+
+.popular-tours-section {
+    width: 1440px;
+    height: 700px;
+    display: flex;
+    margin: 40;
+    border: 2px solid red;
+    /*  position: relative; */
+    /*  margin: 20px; */
+
+}
+
+.popular-tours-left-site {
+    width: 50%;
+    padding: 20px;
+    /*  border: 2px solid blue; */
+
+
+}
+
+.our-popular-tours {
+    display: flex;
+    color: #131318;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 800;
+    /*  border: 2px solid red; */
+
+}
+
+.first-para-description {
+    width: 577px;
+    color: rgba(19, 19, 24, 40.70);
+    font-size: 20px;
+    font-weight: 400;
+    /* border: 2px solid yellow; */
+
+    /* 162.5% */
+}
+
+
+
+.list-one {
+    width: 525px;
+    height: 52px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px;
+    /*  border: 2px solid red; */
+}
+
+
+.list-two {
+    width: 525px;
+    height: 52px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px;
+
+    /*  border: 2px solid blue; */
+
+}
+
+
+.list-three {
+    width: 525px;
+    height: 52px;
+    /*   border: 2px solid blue; */
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px;
+
+}
+
+
+.second-para-description {
+    width: 530px;
+    height: 110px;
+    color: #5A5A5D;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.read-more-button {
+    width: 174px;
+    height: 52px;
+
+    /* position: absolute; */
+
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    /*   font-weight: 800; */
+
+
+    bottom: 150px;
+    border-radius: 8px;
+    top: 700px;
+    left: 50px;
+    background: #FF5400;
+}
+
+.popular-tours-section img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*Choose Destination section start here*/
+
+.main-container {
+    width: 1440px;
+    height: 1200px;
+
+    border: 4px solid blue;
+}
+
+.destination-image-section {
+    width: 1440px;
+    height: 400px;
+    margin: auto;
+    border: 2px solid yellow;
+}
+
+/*  margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px; 
+
+}
+*/
+
+
+.choose-desti {
+    width: 643px;
+    margin: auto;
+    padding: 10px;
+    margin: bottom 10px;
+
+}
+
+.choose-desti h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+/*.choose-desti-para { */
+
+.choose-desti p {
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.images-part {
+    width: 1440px;
+    height: 950px;
+    /* display: grid */
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+}
+
+/*
+    .img {
+        width: 100%;
+        height: 100%;
+    }
+*/
+
+.row-1 {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.maldives {
+    width: 120px;
+    height: 35px;
+    position: absolute;
+
+    font-size: 40px;
+    color: #FFF;
+    top: 100px;
+    left: 350px;
+}
+
+.indonesia {
+    width: 120px;
+    height: 35px;
+    position: absolute;
+
+    font-size: 40px;
+    color: #FFF;
+    top: 100px;
+    left: 900px;
+}
+
+.srilanka {
+    width: 120px;
+    height: 35px;
+    position: absolute;
+
+    font-size: 40px;
+    color: #FFF;
+    top: 80px;
+    left: 280px;
+}
+
+.north-america {
+    width: 350px;
+    height: 35px;
+    position: absolute;
+
+    font-size: 40px;
+    color: #FFF;
+    top: 80px;
+    left: 600px;
+}
+
+.kashmir {
+    width: 120px;
+    height: 35px;
+    position: absolute;
+
+    font-size: 40px;
+    color: #FFF;
+    top: 80px;
+    left: 1080px;
+}
+
+.bangla-desh {
+    width: 380px;
+    height: 35px;
+    position: absolute;
+
+    font-size: 40px;
+    color: #FFF;
+    top: 65px;
+    left: 880px;
+
+}
+
+
+.bandarban {
+    width: 380px;
+    height: 35px;
+    position: absolute;
+
+    font-size: 40px;
+    color: #FFF;
+    top: 65px;
+    left: 230px;
+
+}
+
+.why-choose-us-section {
+    width: 1440px;
+    height: 1050px;
+
+    justify-content: center;
+    align-items: center;
+
+    /* margin: auto; */
+    border: 2px solid red;
+}
+
+.why-choose-us {
+    width: 643px;
+    height: 126px;
+    color: blue;
+    margin-left: 30%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 900px;
+
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.besite-two-content {
+    width: 1440px;
+    height: 400px;
+    display: flex;
+
+    margin: 25px;
+    justify-content: space-around;
+    align-items: center;
+
+    border: 2px solid blue;
+}
+
+
+.image-htag-pare {
+    width: 650px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    position: static;
+
+    margin: 10px;
+    color: blanchedalmond;
+
+    border: 2px solid brown;
+}
+
+.common-image {
+    width: 30px;
+    height: 30px;
+
+
+}
+
+.image-hedings {
+    width: 250px;
+    height: 40px;
+    color: #131318;
+    margin-top: 33%;
+    ;
+    margin-left: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+
+}
+
+.content-para {
+    width: 675px;
+    height: 200px;
+    margin-top: 35px;
+
+    margin-bottom: 0;
+    font-size: 18px;
+    color: blue;
+    text-align: center;
+    justify-content: center;
+    align-items: center
+}
+
+.best-price-content {
+    width: 650px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 400px;
+    justify-content: center;
+    align-items: center;
+
+    color: blanchedalmond;
+
+    border: 2px solid brown;
+}
+
+/* Why choose us section start here */
+
+
+/* footer section start hear */
+
+
+
+/*
+.maldives img{
+    text-align: center;
+} */
+/*
+.row > div{
+    flex: 1;
+}
+*/
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 576px) {
+    .nav-container {
+        flex: 50% max-width: 50%;
+    }
+
+    .nav-item-left {
+        flex: 50%;
+        max-width: 50%;
+    }
 }
