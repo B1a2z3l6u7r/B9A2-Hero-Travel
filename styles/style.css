@@ -531,7 +531,7 @@
     height: 40px;
     color: #131318;
     margin-top: 33%;
-    ;
+
     margin-left: 10px;
     margin-bottom: 0;
     text-align: center;
@@ -567,6 +567,176 @@
     border: 2px solid brown;
 }
 
+
+.deals-discounts {
+    width: 500px;
+    height: 150px;
+    margin-top: 60%;
+    margin-left: 480px;
+    margin-bottom: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+}
+
+
+.deals-discounts-container{
+    width: 1440px;
+    height: 1600px;
+    gap: 30px;
+}
+
+.tour-cotainer {
+    width: 1440px;
+    height: 550px;
+    position: relative;
+    
+    margin: 20px;
+    margin-left: 150px;
+   
+    border-radius: 5px;
+    border: 2px solid blue;
+}
+
+
+.day-tour-price-button {
+    width: 450px;
+    height: 300px;
+    margin: 20px;
+    position: absolute;
+
+    top: 50px;
+    left: 600px;
+    
+    border-radius: 5px;
+    border: 2px solid red;
+    background-color:aliceblue;
+}
+
+.day-max {
+    width: 400px;
+    height: 20px;
+    margin: 15px;
+    font-size: 16px;
+    color: blue;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid blueviolet;
+    display: flex;
+}
+
+.day-night {
+    width: 100px;
+    height: 20px;
+
+}
+
+.max-size {
+    width: 100px;
+    height: 20px;
+
+}
+
+.country-neme {
+    width: 100px;
+    height: 20px;
+
+}
+
+.right-arrows img {
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+}
+
+.tour-to-satorini {
+    width: 200px;
+    height: 42px;
+
+    margin: 10px;
+    color: blue;
+    border: 2px solid red;
+}
+
+.h1 {
+
+    font-size: 22px;
+
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.tour-to {
+
+    width: 400px;
+    height: 42px;
+    margin: 10px;
+
+}
+
+.price-amount {
+    width: 250px;
+    height: 35px;
+    font-size: 25px;
+    color: red;
+    margin-top: 40px;
+    margin-left: 10px;
+    border: 2px solid red;
+    font-size: 25px;
+}
+
+.h4 {}
+
+.book-now-button {
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    text-align: center;
+    color: #FFF;
+    margin-left: 10px;
+    margin-bottom: 0;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.right-arrows {
+    width: 100px;
+
+    border-radius: 8px;
+    border: 2px solid blue;
+}
+
+.day-tour-price-button-two{
+    width: 450px;
+    height: 300px;
+    margin: 20px;
+    position: absolute;
+
+    top: 50px;
+    left: 50px;
+    
+    border-radius: 5px;
+    border: 2px solid red;
+    background-color:aliceblue;
+}
+
+.see-all{
+    width: 180px;
+    height: 35px;
+    font-size: 18px;
+    text-align: center;
+    color: #FFF;
+    margin-top: 350px; 
+    margin-left: 825px; 
+    margin-bottom: 0;
+    background-color: red;
+    border-radius: 5px;
+    border: 2px solid blue;
+}
 /* Why choose us section start here */
 
 
