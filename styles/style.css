@@ -1,5 +1,4 @@
-// <uniquifier>: Use a uniquifier for the class name
-// <weight>: Use a value from 100 to 900
+
 
 .work-sans-<uniquifier> {
     font-family: "Work Sans", sans-serif;
@@ -8,8 +7,7 @@
 
 }
 
-// <uniquifier>: Use a uniquifier for the class name
-// <weight>: Use a value from 300 to 800
+
 
 .open-sans-<uniquifier> {
     font-family: "Open Sans", sans-serif;
