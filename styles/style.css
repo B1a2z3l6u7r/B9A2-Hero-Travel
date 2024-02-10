@@ -7,8 +7,6 @@
 
 }
 
-
-
 .open-sans-<uniquifier> {
     font-family: "Open Sans", sans-serif;
 
@@ -37,7 +35,9 @@
     height: 1540px;
     /* height: 600px; */
     background: #FFF;
-    margin: 40px;
+  /*   margin: 40px; */
+    margin-top: 40px;
+    margin-left: 40px;
 
 }
 
@@ -219,7 +219,7 @@
     color: #131318;
     text-align: left;
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 800px;
     /*  border: 2px solid red; */
 
 }
@@ -279,7 +279,7 @@
 
 .popular-tours-section img {
     width: 50%;
-    display: flex;
+    
     justify-content: center;
     align-items: center;
 
